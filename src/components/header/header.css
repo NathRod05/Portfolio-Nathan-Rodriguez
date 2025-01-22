@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.navigation a {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: solid 2px #fff;
+}
+
+.navigation a:hover {
+  border-bottom: solid 2px #000000;
+}

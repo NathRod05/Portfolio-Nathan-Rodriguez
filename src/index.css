@@ -1,0 +1,18 @@
+:root {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: #000000;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0px;
+}
