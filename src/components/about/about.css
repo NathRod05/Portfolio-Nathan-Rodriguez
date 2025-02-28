@@ -1,0 +1,35 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  color: #d8b33e;
+  text-shadow: 5px 5px 15px #000;
+  font-size: 16px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.description {
+  line-height: 1.5;
+  width: 450px;
+  height: 350px;
+}
+
+.profil-picture {
+  width: auto;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: solid 3px #d8b33e;
+}
