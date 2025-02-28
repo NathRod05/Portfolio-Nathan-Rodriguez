@@ -10,7 +10,8 @@ function Header({ onOpen }) {
         <a href="#home">Home</a>
         <a href="#about">À propos</a>
         <a href="#skill">Compétances</a>
-        <a href="">Projets</a>
+        <a href="#project">Projets</a>
+        <a href="#cv">CV</a>
       </nav>
       <a href="#contact" className="btn-contact" onClick={onOpen}>
         Contactez-moi
