@@ -5,6 +5,7 @@ import Form from "../components/Modal-form/form";
 import "./home.css";
 import About from "../components/about/About";
 import Skill from "../components/skill/Skill";
+import Slider from "../components/slider/Slider";
 
 function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,7 +19,7 @@ function Home() {
   };
 
   return (
-    <div className="home">
+    <div id="home">
       <Header onOpen={handleOpenModal} />
       {isModalOpen && (
         <div className="overlay">
@@ -27,6 +28,7 @@ function Home() {
           </div>
         </div>
       )}
+      <Slider />
       <About />
       <Skill />
       <Footer onOpen={handleOpenModal} />
