@@ -1,7 +1,8 @@
 import "./header.css";
+import PropTypes from "prop-types";
 import logo from "../../assets/logo-nathan-rodriguez.png";
 
-function Header() {
+function Header({ onOpen }) {
   return (
     <header className="header">
       <img className="logo-header" src={logo} alt="logo" />
@@ -11,11 +12,15 @@ function Header() {
         <a href="">Compétances</a>
         <a href="">Projets</a>
       </nav>
-      <a href="" className="btn-contact">
+      <a href="#contact" className="btn-contact" onClick={onOpen}>
         Contactez-moi
       </a>
     </header>
   );
 }
+
+Header.propTypes = {
+  onOpen: PropTypes.func,
+};
 
 export default Header;

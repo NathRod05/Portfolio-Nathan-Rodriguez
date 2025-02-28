@@ -1,7 +1,7 @@
-import logo from "../../assets/logo-nathan-rodriguez.png";
+import PropTypes from "prop-types";
 import "./footer.css";
 
-function Footer() {
+function Footer({ onOpen }) {
   return (
     <footer className="footer">
       <div className="contenaire left">
@@ -11,23 +11,19 @@ function Footer() {
           trouve sa liberté.
         </p>
       </div>
-      {/* <img className="logo-footer" src={logo} alt="logo" /> */}
       <div className="container-centre">
         <div>
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/" target="blank">
             <i className="fa-brands fa-facebook"></i>
           </a>
-          <a href="https://www.instagram.com/">
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/rodriguez-nathan">
+          <a href="https://www.linkedin.com/in/rodriguez-nathan" target="blank">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/NathRod05">
+          <a href="https://github.com/NathRod05" target="blank">
             <i className="fa-brands fa-github"></i>
           </a>
         </div>
-        s<p>Designe by Nathan Rodriguez</p>
+        <p>Designe by Nathan Rodriguez</p>
       </div>
       <div className="container-right">
         <p>
@@ -39,12 +35,16 @@ function Footer() {
         <p>
           <i className="fa-solid fa-mobile-screen-button"></i> 06 69 04 97 87
         </p>
-        <a href="#" className="btn-contact-footer">
+        <a href="#" className="btn-contact-footer" onClick={onOpen}>
           Contactez-moi
         </a>
       </div>
     </footer>
   );
 }
+
+Footer.propTypes = {
+  onOpen: PropTypes.func,
+};
 
 export default Footer;
