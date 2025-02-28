@@ -7,9 +7,9 @@ function Header({ onOpen }) {
     <header className="header">
       <img className="logo-header" src={logo} alt="logo" />
       <nav className="navigation">
-        <a href="">Home</a>
-        <a href="">À propos</a>
-        <a href="">Compétances</a>
+        <a href="#home">Home</a>
+        <a href="#about">À propos</a>
+        <a href="#skill">Compétances</a>
         <a href="">Projets</a>
       </nav>
       <a href="#contact" className="btn-contact" onClick={onOpen}>
