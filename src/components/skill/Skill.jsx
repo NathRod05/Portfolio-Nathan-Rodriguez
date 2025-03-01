@@ -31,18 +31,18 @@ function Skill() {
           <i className="devicon-redux-original colored icon"></i>
           <p>Redux</p>
         </div>
-        <div className="skill-flex">
+        {/* <div className="skill-flex">
           <i className="devicon-nodejs-plain colored icon"></i>
           <p>Node.js</p>
-        </div>
+        </div> */}
         <div className="skill-flex">
           <i className="devicon-figma-plain colored icon"></i>
           <p>Figma</p>
         </div>
-        <div className="skill-flex">
+        {/* <div className="skill-flex">
           <i className="devicon-postman-plain colored icon"></i>
           <p>Postman</p>
-        </div>
+        </div> */}
         <div className="skill-flex">
           <i className="devicon-swagger-plain colored icon"></i>
           <p>Swagger</p>
