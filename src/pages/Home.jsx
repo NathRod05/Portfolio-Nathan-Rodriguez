@@ -6,6 +6,7 @@ import "./home.css";
 import About from "../components/about/About";
 import Skill from "../components/skill/Skill";
 import Slider from "../components/slider/Slider";
+import CV from "../components/cv/cv";
 
 function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,6 +32,7 @@ function Home() {
       <Slider />
       <About />
       <Skill />
+      <CV />
       <Footer onOpen={handleOpenModal} />
     </div>
   );
