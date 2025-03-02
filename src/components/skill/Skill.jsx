@@ -4,7 +4,7 @@ function Skill() {
   return (
     <div className="skill-container" id="skill">
       <div className="skill">
-        <h1>Compétences</h1>
+        <h1>Compétances</h1>
       </div>
       <div className="icon-container">
         <div className="skill-flex">

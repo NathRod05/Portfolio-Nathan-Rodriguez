@@ -5,7 +5,7 @@ import data from "../../../data.json";
 function Project() {
   return (
     <div className="project-container" id="project">
-      <h1>À propos</h1>
+      <h1>Projets</h1>
       <div className="cards-container">
         {data.website.map((card) => (
           <Card key={card.id} data={card} />
