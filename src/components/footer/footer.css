@@ -101,8 +101,22 @@
   }
 }
 
-/* @media (max-width: 768px) {
-  /* .footer {
+@media (max-width: 768px) {
+  .container-left br {
+    display: none;
+  }
+
+  .quote {
+    font-size: 10px;
+  }
+  .container-right {
+    align-items: end;
+  }
+  .container-right p {
+    width: 120px;
+  }
+}
+/* .footer {
     /* flex-wrap: wrap;
     gap: 20px; */
 /* }
