@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer({ onOpen }) {
   return (
     <footer className="footer">
-      <div className="contenaire left">
+      <div className="contenaire-left">
         <p className="quote">
           Seule la créativité révèle <br />
           une perfection où l&apos;âme <br />
@@ -42,9 +42,5 @@ function Footer({ onOpen }) {
     </footer>
   );
 }
-
-Footer.propTypes = {
-  onOpen: PropTypes.func,
-};
 
 export default Footer;

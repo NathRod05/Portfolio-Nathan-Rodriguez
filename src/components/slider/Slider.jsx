@@ -16,11 +16,11 @@ function Slider() {
         prevIndex < slider.length - 1 ? prevIndex + 1 : 0
       );
     };
-    const interval = setInterval(nextCard, 3000);
+    const interval = setInterval(nextCard, 4000);
     return () => clearInterval(interval);
   }, [slider.length]);
   return (
-    <main className="slider-container">
+    <div className="slider-container">
       <div className="slider">
         <img className="img" src={slider[index]} alt={`Slide ${index + 1}`} />
       </div>
@@ -35,7 +35,7 @@ function Slider() {
           />
         ))}
       </div>
-    </main>
+    </div>
   );
 }
 

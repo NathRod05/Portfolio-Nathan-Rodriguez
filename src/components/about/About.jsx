@@ -3,7 +3,7 @@ import "./about.css";
 
 function About() {
   return (
-    <main className="about-container" id="about">
+    <div className="about-container" id="about">
       <div className="about-me">
         <h1>À propos</h1>
       </div>
@@ -24,7 +24,7 @@ function About() {
           alt="Photo de profil de Nathan Rodriguez avec son chien regardant au dessus d'un muret la mer"
         />{" "}
       </div>
-    </main>
+    </div>
   );
 }
 

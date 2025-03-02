@@ -6,7 +6,7 @@ function CV() {
   return (
     <div className="cv-container" id="cv">
       <h1>CV</h1>
-      <div>
+      <div className="image-container">
         <img className="image-cv" src={imgCv} alt="CV de Nathan Rodriguez" />
       </div>
       <div>

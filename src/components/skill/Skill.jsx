@@ -2,7 +2,7 @@ import "./skill.css";
 
 function Skill() {
   return (
-    <main className="skill-container" id="skill">
+    <div className="skill-container" id="skill">
       <div className="skill">
         <h1>Compétences</h1>
       </div>
@@ -56,7 +56,7 @@ function Skill() {
           <p>Github</p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 

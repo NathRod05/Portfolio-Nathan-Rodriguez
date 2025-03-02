@@ -95,8 +95,4 @@ function Form({ onClose }) {
   );
 }
 
-Form.propTypes = {
-  onClose: PropTypes.func,
-};
-
 export default Form;

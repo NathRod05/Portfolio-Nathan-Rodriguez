@@ -7,6 +7,7 @@ import About from "../components/about/About";
 import Skill from "../components/skill/Skill";
 import Slider from "../components/slider/Slider";
 import CV from "../components/cv/cv";
+import Project from "../components/project/project";
 
 function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,10 +30,13 @@ function Home() {
           </div>
         </div>
       )}
-      <Slider />
-      <About />
-      <Skill />
-      <CV />
+      <main>
+        <Slider />
+        <About />
+        <Skill />
+        <Project />
+        <CV />
+      </main>
       <Footer onOpen={handleOpenModal} />
     </div>
   );

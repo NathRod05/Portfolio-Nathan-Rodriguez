@@ -64,3 +64,9 @@ textarea {
   background: white;
   color: #d8b33e;
 }
+
+@media (max-width: 1024px) {
+  .container-form {
+    width: 80%;
+  }
+}
