@@ -10,7 +10,7 @@ function CV() {
         <img className="image-cv" src={imgCv} alt="CV de Nathan Rodriguez" />
       </div>
       <div>
-        <a href={cvPdf} download="Mon_CV.pdf">
+        <a href={cvPdf} download="Mon_CV.pdf" target="blank">
           <button className="btn-download">Télécharger mon CV</button>
         </a>
       </div>
