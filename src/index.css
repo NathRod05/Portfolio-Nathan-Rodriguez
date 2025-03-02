@@ -16,7 +16,3 @@
 * {
   margin: 0px;
 }
-
-body {
-  touch-action: manipulation; /* Pour améliorer l'expérience sur mobile */
-}
