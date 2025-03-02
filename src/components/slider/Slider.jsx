@@ -22,7 +22,7 @@ function Slider() {
   return (
     <div className="slider-container">
       <div className="slider">
-        <img className="img" src={slider[index]} alt={`Slide ${index + 1}`} />
+        <img className="img" src={slider[index]} alt="#" />
       </div>
       <div className="dots">
         {slider.map((_, radioIdx) => (
