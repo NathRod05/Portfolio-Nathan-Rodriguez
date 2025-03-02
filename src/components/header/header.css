@@ -93,6 +93,7 @@
 @media (max-width: 768px) {
   .header {
     position: relative;
+    box-shadow: 2px 4px 8px #000;
   }
   .navigation {
     display: none;
@@ -127,7 +128,7 @@
     display: block;
     background: #0d0217;
     border: solid 1px #d8b33e;
-    border-radius: 25px;
+    border-radius: 20px;
     color: #d8b33e;
     font-size: 30px;
     cursor: pointer;
