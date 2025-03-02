@@ -1,7 +1,7 @@
 .header {
   position: sticky;
   top: 0;
-  z-index: 0;
+  z-index: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -64,8 +64,12 @@
 }
 
 @media (max-width: 1024px) {
+  .header {
+    margin: 15px 20px 0px 20px;
+    border-radius: 50px;
+  }
   .logo-header {
-    width: 150px;
+    width: 180px;
   }
 
   .navigation a {
@@ -87,6 +91,9 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    position: relative;
+  }
   .navigation {
     display: none;
     flex-direction: column;
@@ -104,6 +111,9 @@
 
   .navigation.open {
     display: flex;
+    position: fixed;
+    top: 95px;
+    right: 45px;
   }
 
   .btn-contact {
@@ -111,17 +121,19 @@
   }
 
   .hamburger {
+    position: fixed;
+    top: 25px;
+    right: 35px;
     display: block;
-    background: none;
-    border: none;
+    background: #0d0217;
+    border: solid 1px #d8b33e;
+    border-radius: 25px;
     color: #d8b33e;
     font-size: 30px;
     cursor: pointer;
+    box-shadow: 2px 4px 8px #000;
   }
 
-  .hamburger {
-    display: block;
-  }
   .btn-contact-mobile {
     display: block;
     color: #ffffff !important;
