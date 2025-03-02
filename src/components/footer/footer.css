@@ -101,11 +101,11 @@
   }
 }
 
-@media (max-width: 768px) {
-  .footer {
+/* @media (max-width: 768px) {
+  /* .footer {
     /* flex-wrap: wrap;
     gap: 20px; */
-  }
+/* }
   /* .container-left {
     order: 1;
   }
@@ -117,4 +117,4 @@
   .container-right {
     order: 2;
   } */
-}
+/* } */
