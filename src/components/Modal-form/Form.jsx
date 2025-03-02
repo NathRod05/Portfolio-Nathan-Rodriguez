@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./form.css";
-import Modal from "../modal/Modal";
+// import Modal from "../modal/Modal";
 
 function Form({ onClose }) {
   const [message, setMessage] = useState("");
@@ -101,7 +101,7 @@ function Form({ onClose }) {
           </button>
         </div>
       </form>
-      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      {/* <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} /> */}
     </div>
   );
 }
