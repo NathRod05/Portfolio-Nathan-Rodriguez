@@ -1,6 +1,5 @@
 import "./header.css";
 import { useState } from "react";
-import PropTypes from "prop-types";
 import logo from "../../assets/logo-nathan-rodriguez.png";
 
 function Header({ onOpen }) {

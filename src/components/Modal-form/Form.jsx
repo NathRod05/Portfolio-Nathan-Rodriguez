@@ -1,10 +1,11 @@
 import { useRef, useState } from "react";
-import PropTypes from "prop-types";
 import emailjs from "@emailjs/browser";
 import "./form.css";
+import Modal from "../modal/Modal";
 
 function Form({ onClose }) {
   const [message, setMessage] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const maxLength = 500;
   const form = useRef();
 
@@ -22,6 +23,7 @@ function Form({ onClose }) {
         (result) => {
           console.log("Email envoyé:", result.text);
           if (onClose) onClose();
+          setIsModalOpen(true);
         },
         (error) => {
           console.error("Erreur:", error.text);
@@ -29,6 +31,13 @@ function Form({ onClose }) {
         }
       );
   };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      sendEmail(e);
+    }
+  };
+
   return (
     <div>
       <form
@@ -36,6 +45,7 @@ function Form({ onClose }) {
         className="container-form"
         id="contact"
         onSubmit={sendEmail}
+        onKeyDown={handleKeyDown}
       >
         <div className="input-wrapper">
           <label htmlFor="name">Nom:</label>
@@ -62,7 +72,7 @@ function Form({ onClose }) {
           <input
             type="text"
             id="sujet"
-            name="Sujet"
+            name="subject"
             autoComplete="off"
             required
           />
@@ -91,6 +101,7 @@ function Form({ onClose }) {
           </button>
         </div>
       </form>
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }
