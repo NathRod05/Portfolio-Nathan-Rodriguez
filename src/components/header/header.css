@@ -128,11 +128,12 @@
     display: block;
     background: #0d0217;
     border: solid 1px #d8b33e;
-    border-radius: 20px;
+    border-radius: 25px;
     color: #d8b33e;
     font-size: 30px;
     cursor: pointer;
     box-shadow: 2px 4px 8px #000;
+    padding: 2px 6px;
   }
 
   .btn-contact-mobile {
