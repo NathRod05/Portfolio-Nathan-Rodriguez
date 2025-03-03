@@ -18,11 +18,11 @@ function Slider() {
     };
     const interval = setInterval(nextCard, 4000);
     return () => clearInterval(interval);
-  }, [slider.length]);
+  }, []);
   return (
     <div className="slider-container">
       <div className="slider">
-        <img className="img" src={slider[index]} alt="#" />
+        <img className="img" src={slider[index]} alt={`Slide ${index + 1}`} />
       </div>
       <div className="dots">
         {slider.map((_, radioIdx) => (
@@ -32,6 +32,7 @@ function Slider() {
             name="radio-button"
             checked={index === radioIdx}
             readOnly
+            aria-label={`Slide ${radioIdx + 1}`}
           />
         ))}
       </div>
