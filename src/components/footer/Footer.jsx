@@ -12,13 +12,25 @@ function Footer({ onOpen }) {
       </div>
       <div className="container-centre">
         <div>
-          <a href="https://www.facebook.com/Natou05/" target="blank">
+          <a
+            href="https://www.facebook.com/Natou05/"
+            target="blank"
+            aria-label="Voir mon profil Facebook"
+          >
             <i className="fa-brands fa-facebook"></i>
           </a>
-          <a href="https://www.linkedin.com/in/rodriguez-nathan" target="blank">
+          <a
+            href="https://www.linkedin.com/in/rodriguez-nathan"
+            target="blank"
+            aria-label="Voir mon profil Linkedin"
+          >
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://github.com/NathRod05" target="blank">
+          <a
+            href="https://github.com/NathRod05"
+            target="blank"
+            aria-label="Voir mon profil GitHub"
+          >
             <i className="fa-brands fa-github"></i>
           </a>
         </div>
