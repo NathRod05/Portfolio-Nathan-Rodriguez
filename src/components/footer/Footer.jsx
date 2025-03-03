@@ -12,7 +12,7 @@ function Footer({ onOpen }) {
       </div>
       <div className="container-centre">
         <div>
-          <a href="https://www.facebook.com/" target="blank">
+          <a href="https://www.facebook.com/Natou05/" target="blank">
             <i className="fa-brands fa-facebook"></i>
           </a>
           <a href="https://www.linkedin.com/in/rodriguez-nathan" target="blank">
