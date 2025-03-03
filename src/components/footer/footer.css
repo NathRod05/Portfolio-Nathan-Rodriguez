@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -18,10 +20,14 @@
 }
 
 .quote {
-  font-family: "Playwrite IN", serif;
-  font-optical-sizing: auto;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto; */
   font-size: 15px;
-  color: #d8b33e;
+  text-shadow: 1px 1px 4px #d8b33e;
+  /* color: #d8b33e; */
 }
 .container-centre {
   display: flex;
