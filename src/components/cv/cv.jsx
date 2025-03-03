@@ -3,6 +3,10 @@ import imgCv from "../../assets/CV-Portfolio.jpg";
 import cvPdf from "../../assets/CV-Portfolio.pdf";
 
 function CV() {
+  const openPdfInNewWindow = () => {
+    window.open("/path/to/your/file.pdf", "_blank");
+  };
+
   return (
     <div className="cv-container" id="cv">
       <h1>CV</h1>
@@ -10,7 +14,12 @@ function CV() {
         <img className="image-cv" src={imgCv} alt="CV de Nathan Rodriguez" />
       </div>
       <div>
-        <a href={cvPdf} download="Mon_CV.pdf" target="blank">
+        <a
+          href={cvPdf}
+          download="Mon_CV.pdf"
+          target="blank"
+          onClick={openPdfInNewWindow}
+        >
           <button className="btn-download">Télécharger mon CV</button>
         </a>
       </div>
