@@ -102,10 +102,6 @@
 }
 
 @media (max-width: 768px) {
-  .container-left br {
-    display: none;
-  }
-
   .quote {
     font-size: 10px;
   }
