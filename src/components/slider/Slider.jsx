@@ -27,7 +27,7 @@ function Slider() {
       <div className="dots">
         {slider.map((_, radioIdx) => (
           <input
-            key={Math.random().toString()}
+            key={radioIdx}
             type="radio"
             name="radio-button"
             checked={index === radioIdx}
