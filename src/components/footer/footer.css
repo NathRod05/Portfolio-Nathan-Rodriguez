@@ -94,6 +94,7 @@
 
   .btn-contact-footer {
     width: 90px;
+    font-size: 12px;
   }
 
   .btn-contact-footer:hover {
@@ -110,7 +111,11 @@
   }
   .container-right p {
     font-size: 8px;
-    width: 120px;
+    width: 80px;
+  }
+  .btn-contact-footer {
+    width: 65px;
+    font-size: 8px;
   }
 }
 /* .footer {
