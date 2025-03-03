@@ -34,7 +34,7 @@ function Footer({ onOpen }) {
             <i className="fa-brands fa-github"></i>
           </a>
         </div>
-        <p>Designe by Nathan Rodriguez</p>
+        <p>Designed by Nathan Rodriguez</p>
       </div>
       <div className="container-right">
         <p>
