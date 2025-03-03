@@ -103,12 +103,13 @@
 
 @media (max-width: 768px) {
   .quote {
-    font-size: 10px;
+    font-size: 8px;
   }
   .container-right {
     align-items: end;
   }
   .container-right p {
+    font-size: 8px;
     width: 120px;
   }
 }
