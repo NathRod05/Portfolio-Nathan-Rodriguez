@@ -14,7 +14,13 @@ function Header({ onOpen }) {
   };
   return (
     <header className="header">
-      <img className="logo-header" src={logo} alt="logo" />
+      <div className="logo-container">
+        <img className="logo-icon" src={logo} alt="logo" />
+        <div className="logo">
+          <h1> {"{<\\>athan.R}..."}</h1>
+          <p>Développer Web</p>
+        </div>
+      </div>
       <nav className={`navigation ${open ? "open" : ""}`}>
         <a href="#home" onClick={handleLinkClick}>
           Home

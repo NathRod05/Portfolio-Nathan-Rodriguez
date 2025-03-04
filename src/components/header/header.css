@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 .header {
   position: sticky;
   top: 0;
@@ -13,8 +15,37 @@
   box-shadow: 6px 3px 8px #000;
 }
 
-.logo-header {
-  width: 230px;
+.logo-container {
+  display: flex;
+  gap: 4px;
+  margin-left: 10px;
+}
+
+.header h1 {
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #d8b33e;
+}
+
+.header p {
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #d8b33e;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-icon {
+  padding-top: 2px;
+  width: 40px;
+  height: 40px;
 }
 
 .navigation {
@@ -68,9 +99,6 @@
     margin: 15px 20px 0px 20px;
     border-radius: 50px;
   }
-  .logo-header {
-    width: 180px;
-  }
 
   .navigation a {
     font-size: 12px;
@@ -95,6 +123,21 @@
     position: relative;
     box-shadow: 2px 4px 8px #000;
   }
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .header p {
+    font-size: 13px;
+    padding-left: 10px;
+  }
+
+  .logo-icon {
+    padding-top: 2px;
+    width: 30px;
+    height: 30px;
+  }
+
   .navigation {
     display: none;
     flex-direction: column;
@@ -133,7 +176,7 @@
     font-size: 30px;
     cursor: pointer;
     box-shadow: 2px 4px 8px #000;
-    padding: 2px 8px;
+    padding: 0px 5px;
   }
 
   .btn-contact-mobile {
