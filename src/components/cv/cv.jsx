@@ -1,8 +1,11 @@
 import "./cv.css";
 import imgCv from "../../assets/CV-Portfolio.jpg";
 import cvPdf from "../../assets/CV-Portfolio.pdf";
+import { useTranslation } from "react-i18next";
 
 function CV() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="cv-container" id="cv">
       <h1>CV</h1>
@@ -11,7 +14,7 @@ function CV() {
       </div>
       <div>
         <a href={cvPdf} download="Mon_CV.pdf" target="blank">
-          <button className="btn-download">Télécharger mon CV</button>
+          <button className="btn-download">{t("cv-pdf")}</button>
         </a>
       </div>
     </div>

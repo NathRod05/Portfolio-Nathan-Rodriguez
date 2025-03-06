@@ -1,14 +1,13 @@
 import "./footer.css";
+import { useTranslation } from "react-i18next";
 
 function Footer({ onOpen }) {
+  const { t, i18n } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="container-left">
-        <p className="quote">
-          "Seule la créativité révèle <br />
-          une perfection où l&apos;âme <br />
-          trouve sa liberté."
-        </p>
+        <p className="quote">{t("quote")}</p>
       </div>
       <div className="container-centre">
         <div>
@@ -47,7 +46,7 @@ function Footer({ onOpen }) {
           <i className="fa-solid fa-mobile-screen-button"></i> 06 69 04 97 87
         </p>
         <a href="#" className="btn-contact-footer" onClick={onOpen}>
-          Contactez-moi
+          {t("contact")}
         </a>
       </div>
     </footer>

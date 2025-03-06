@@ -1,23 +1,16 @@
 import profil from "../../assets/nathan-rodriguez.jpg";
 import "./about.css";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="about-container" id="about">
       <div className="about-me">
-        <h1>À propos</h1>
+        <h1>{t("about")}</h1>
       </div>
       <div className="description-container">
-        <p className="description">
-          Développeur web avec des compétences en React, Vite, Redux,
-          JavaScript, HTML et CSS, je me spécialise dans le développement
-          frontend. <br />
-          Mon parcours, atypique, m’a permis d'adopter' des perspectives
-          uniques, me permettant de développer une approche originale face aux
-          problématiques techniques.
-          <br /> Je m&apos;efforce d’enrichir constamment mes connaissances et
-          de créer des applications efficaces et bien conçues.
-        </p>
+        <p className="description">{t("about-me")}</p>
         <img
           className="profil-picture"
           src={profil}

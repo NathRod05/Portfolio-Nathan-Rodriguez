@@ -1,9 +1,11 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./form.css";
+import { useTranslation } from "react-i18next";
 // import Modal from "../modal/Modal";
 
 function Form({ onClose }) {
+  const { t, i18n } = useTranslation();
   const [message, setMessage] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const maxLength = 500;
@@ -48,7 +50,7 @@ function Form({ onClose }) {
         onKeyDown={handleKeyDown}
       >
         <div className="input-wrapper">
-          <label htmlFor="name">Nom:</label>
+          <label htmlFor="name">{t("name")}:</label>
           <input
             type="text"
             id="name"
@@ -58,7 +60,7 @@ function Form({ onClose }) {
           />
         </div>
         <div className="input-wrapper">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">E-mail:</label>
           <input
             type="text"
             id="email"
@@ -68,7 +70,7 @@ function Form({ onClose }) {
           />
         </div>
         <div className="input-wrapper">
-          <label htmlFor="sujet">Sujet:</label>
+          <label htmlFor="sujet">{t("subject")}:</label>
           <input
             type="text"
             id="sujet"
@@ -94,10 +96,10 @@ function Form({ onClose }) {
         </div>
         <div className="btn-container">
           <button className="btn" type="submit">
-            Envoyer
+            {t("send")}
           </button>
           <button className="btn" type="button" onClick={onClose}>
-            Fermer
+            {t("close")}
           </button>
         </div>
       </form>
