@@ -1,0 +1,50 @@
+{
+  "home": "Home",
+  "about": "About-me",
+  "skill": "Skills",
+  "project": "Projects",
+  "language": "English",
+  "contact": "Contact me",
+  "about-me": "Web developer with skills in React, Vite, Redux, JavaScript, HTML, and CSS, I specialize in frontend development. \nMy unconventional background has offered me unique perspectives, allowing me to develop an original approach to technical issues. \nI strive to constantly enrich my knowledge and create efficient and well-designed applications.",
+  "quote": "Only creativity reveals \na perfection where the soul \nfinds its freedom.",
+  "cv-pdf": "Download my CV",
+  "message-successful": "Votre message a été \nenvoyé avec succès",
+  "send": "Send",
+  "name": "Name",
+  "subject": "Subject",
+  "close": "Close",
+  "website": [
+    {
+      "id": "1",
+      "link": "https://nathrod05.github.io/OC-Booki/",
+      "image": "../../assets/image-booki.png",
+      "attribut": "Cover photo of the Booki website",
+      "titre": "Booki",
+      "description": "Booki is a website that allows you to find accommodation or activities according to your desires."
+    },
+    {
+      "id": "2",
+      "link": "https://nathrod05.github.io/OC-OhMyFood/",
+      "image": "../../assets/image-ohmyfood.png",
+      "attribut": "Cover photo of the Oh My Food website",
+      "titre": "OhMyFood",
+      "description": "It is a young startup that wants to establish itself in the restaurant market."
+    },
+    {
+      "id": "3",
+      "link": "https://nathrod05.github.io/OC-Print-it/",
+      "image": "../../assets/image-print-it.png",
+      "attribut": "Cover photo of the Print it website",
+      "titre": "Print it",
+      "description": "Print it is a small family printing business specializing in the needs of small and large companies."
+    },
+    {
+      "id": "4",
+      "link": "https://oc-kasa-sigma.vercel.app/",
+      "image": "./../assets/image-kasa.png",
+      "attribut": "Cover photo of the Kasa website",
+      "titre": "Kasa",
+      "description": "Kasa is one of the leading companies in the private apartment rental market in France."
+    }
+  ]
+}
