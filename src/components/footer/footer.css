@@ -62,12 +62,14 @@
 }
 
 .btn-contact-footer {
+  display: flex;
+  justify-content: center;
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   background: #d8b33e;
   width: 110px;
-  padding: 5px 10px 5px 20px;
+  padding: 5px 10px 5px 10px;
   border-radius: 5px;
   transition: all ease-in-out 0.3s;
 }
