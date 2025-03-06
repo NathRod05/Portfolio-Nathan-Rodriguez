@@ -29,7 +29,7 @@
   color: #d8b33e;
 }
 
-.header p {
+.under-logo {
   font-family: "VT323", serif;
   font-weight: 400;
   font-style: normal;
@@ -52,13 +52,13 @@
   width: 50%;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .navigation a {
   color: #d8b33e;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   transition: all ease-in-out 0.2s;
 }
@@ -68,11 +68,44 @@
   transform: scale(1.1) translateY(5px);
 }
 
+.hamburger-translation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background: #0d0217;
+  border: none;
+  cursor: pointer;
+}
+
+.selector {
+  color: #d8b33e;
+}
+
+.hamburger-translation div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #0d0217;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-translation button {
+  display: flex;
+  justify-content: center;
+  color: #d8b33e;
+  background: #0d0217;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
 .btn-contact {
   margin-right: 10px;
   color: #ffffff;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   background: #d8b33e;
   padding: 10px 20px;
@@ -101,18 +134,18 @@
   }
 
   .header h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
-  .header p {
-    font-size: 18px;
+  .under-logo {
+    font-size: 13px;
     padding-left: 10px;
   }
 
   .logo-icon {
     padding-top: 2px;
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
   }
 
   .navigation {
@@ -120,11 +153,11 @@
   }
 
   .navigation a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .btn-contact {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .navigation a:hover {
@@ -173,6 +206,16 @@
 
   .navigation a {
     font-size: 20px;
+  }
+
+  .hamburger-translation {
+    align-items: end;
+    padding-right: 0px;
+  }
+
+  .hamburger-translation button {
+    justify-content: end;
+    padding-right: 0px;
   }
 
   .btn-contact {
