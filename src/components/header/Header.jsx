@@ -29,7 +29,7 @@ function Header({ onOpen }) {
           À propos
         </a>
         <a href="#skill" onClick={handleLinkClick}>
-          Compétances
+          Compétences
         </a>
         <a href="#project" onClick={handleLinkClick}>
           Projets
