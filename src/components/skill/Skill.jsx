@@ -21,7 +21,7 @@ function Skill() {
         </div>
         <div className="skill-flex">
           <i className="devicon-javascript-plain colored icon"></i>
-          <p>Javascript</p>
+          <p>JavaScript</p>
         </div>
         <div className="skill-flex">
           <i className="devicon-react-original colored icon"></i>
@@ -53,7 +53,7 @@ function Skill() {
         </div>
         <div className="skill-flex">
           <i className="devicon-github-original icon"></i>
-          <p>Github</p>
+          <p>GitHub</p>
         </div>
       </div>
     </div>

@@ -4,33 +4,33 @@
       "id": "1",
       "link": "https://nathrod05.github.io/OC-Booki/",
       "image": "../../assets/image-booki.png",
-      "attribut": "Photo de couvertur du site web Booki",
+      "attribut": "Photo de couverture du site web Booki",
       "titre": "Booki",
-      "description": "Booki est un site internet qui vous permet de trouver un herbergement ou des activités de votre choix."
+      "description": "Booki est un site internet qui vous permet de trouver un hébergement ou des activités selon vos envies."
     },
     {
       "id": "2",
       "link": "https://nathrod05.github.io/OC-OhMyFood/",
       "image": "../../assets/image-ohmyfood.png",
-      "attribut": "Photo de couvertur du site web Oh My Food",
+      "attribut": "Photo de couverture du site web Oh My Food",
       "titre": "OhMyFood",
-      "description": "Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration."
+      "description": "Il s’agit d’une jeune startup qui souhaite s'imposer sur le marché de la restauration."
     },
     {
       "id": "3",
       "link": "https://nathrod05.github.io/OC-Print-it/",
       "image": "../../assets/image-print-it.png",
-      "attribut": "Photo de couvertur du site web Print it",
+      "attribut": "Photo de couverture du site web Print it",
       "titre": "Print it",
-      "description": "Print it, une petite imprimerie familiale, spécialisé dans les besoins d’entreprises de petite et grande taille."
+      "description": "Print it, une petite imprimerie familiale, spécialisée dans les besoins d’entreprises de petite et grande taille."
     },
     {
       "id": "4",
       "link": "https://oc-kasa-sigma.vercel.app/",
       "image": "./../assets/image-kasa.png",
-      "attribut": "Photo de couvertur du site web Kasa",
+      "attribut": "Photo de couverture du site web Kasa",
       "titre": "Kasa",
-      "description": "Kasa est une entreprises leaders sur le marché de location d’appartements entre particuliers en France."
+      "description": "Kasa est l’une des entreprises leaders sur le marché de la location d’appartements entre particuliers en France."
     }
   ]
 }

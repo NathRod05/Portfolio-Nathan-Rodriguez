@@ -10,10 +10,10 @@ function About() {
       <div className="description-container">
         <p className="description">
           Développeur web avec des compétences en React, Vite, Redux,
-          JavaScript, HTML, et CSS, je me spécialise dans le développement
+          JavaScript, HTML et CSS, je me spécialise dans le développement
           frontend. <br />
-          Mon parcours, peu conventionnel, m’a offert des perspectives uniques,
-          me permettant de développer une approche originale face aux
+          Mon parcours, atypique, m’a permis d'adopter' des perspectives
+          uniques, me permettant de développer une approche originale face aux
           problématiques techniques.
           <br /> Je m&apos;efforce d’enrichir constamment mes connaissances et
           de créer des applications efficaces et bien conçues.

@@ -5,9 +5,9 @@ function Footer({ onOpen }) {
     <footer className="footer">
       <div className="container-left">
         <p className="quote">
-          Seule la créativité révèle <br />
+          "Seule la créativité révèle <br />
           une perfection où l&apos;âme <br />
-          trouve sa liberté.
+          trouve sa liberté."
         </p>
       </div>
       <div className="container-centre">
