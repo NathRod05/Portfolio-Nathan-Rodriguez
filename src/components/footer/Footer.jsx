@@ -3,7 +3,7 @@ import "./footer.css";
 function Footer({ onOpen }) {
   return (
     <footer className="footer">
-      <div className="contenaire-left">
+      <div className="container-left">
         <p className="quote">
           Seule la créativité révèle <br />
           une perfection où l&apos;âme <br />
