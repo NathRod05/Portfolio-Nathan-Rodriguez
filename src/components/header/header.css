@@ -211,11 +211,17 @@
   .hamburger-translation {
     align-items: end;
     padding-right: 0px;
+    font-size: 18px;
   }
 
   .hamburger-translation button {
     justify-content: end;
     padding-right: 0px;
+    font-size: 15px;
+  }
+
+  .hamburger-translation div {
+    gap: 8px;
   }
 
   .btn-contact {
