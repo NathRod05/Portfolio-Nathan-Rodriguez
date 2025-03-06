@@ -1,6 +1,6 @@
 .slider-container {
   position: relative;
-  margin: 15px;
+  margin: 15px 30px 30px 30px;
   border-radius: 15px;
   z-index: -1;
 }
