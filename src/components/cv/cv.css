@@ -43,11 +43,6 @@
 }
 
 @media (max-width: 1024px) {
-  /* .cv-container {
-    width: 80%;
-    height: 80%;
-    align-items: ;
-  } */
   .image-container {
     display: flex;
     justify-content: center;
