@@ -14,5 +14,6 @@
 }
 
 * {
+  scroll-margin-top: 15px;
   margin: 0px;
 }
