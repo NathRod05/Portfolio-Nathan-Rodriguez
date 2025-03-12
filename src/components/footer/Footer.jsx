@@ -1,5 +1,6 @@
 import "./footer.css";
 import { useTranslation } from "react-i18next";
+import textToHtml from "../../utilities";
 
 function Footer({ onOpen }) {
   const { t, i18n } = useTranslation();
@@ -7,7 +8,7 @@ function Footer({ onOpen }) {
   return (
     <footer className="footer">
       <div className="container-left">
-        <p className="quote">{t("quote")}</p>
+        <p className="quote">{textToHtml(t("quote"))}</p>
       </div>
       <div className="container-centre">
         <div>

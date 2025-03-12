@@ -1,6 +1,7 @@
 import profil from "../../assets/nathan-rodriguez.jpg";
 import "./about.css";
 import { useTranslation } from "react-i18next";
+import textToHtml from "../../utilities";
 
 function About() {
   const { t, i18n } = useTranslation();
@@ -10,7 +11,7 @@ function About() {
         <h1>{t("about")}</h1>
       </div>
       <div className="description-container">
-        <p className="description">{t("about-me")}</p>
+        <p className="description">{textToHtml(t("about-me"))}</p>
         <img
           className="profil-picture"
           src={profil}
