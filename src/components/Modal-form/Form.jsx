@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./form.css";
 import { useTranslation } from "react-i18next";
-import Modal from "../modal/Modal";
 
 function Form({ onClose }) {
   const { t, i18n } = useTranslation();
