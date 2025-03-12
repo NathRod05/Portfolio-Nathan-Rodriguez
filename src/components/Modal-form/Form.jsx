@@ -2,12 +2,11 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./form.css";
 import { useTranslation } from "react-i18next";
-// import Modal from "../modal/Modal";
+import Modal from "../modal/Modal";
 
 function Form({ onClose }) {
   const { t, i18n } = useTranslation();
   const [message, setMessage] = useState("");
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const maxLength = 500;
   const form = useRef();
 
@@ -25,19 +24,12 @@ function Form({ onClose }) {
         (result) => {
           console.log("Email envoyé:", result.text);
           if (onClose) onClose();
-          setIsModalOpen(true);
         },
         (error) => {
           console.error("Erreur:", error.text);
           alert("Une erreur est survenue.");
         }
       );
-  };
-
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
-      sendEmail(e);
-    }
   };
 
   return (
@@ -47,7 +39,6 @@ function Form({ onClose }) {
         className="container-form"
         id="contact"
         onSubmit={sendEmail}
-        onKeyDown={handleKeyDown}
       >
         <div className="input-wrapper">
           <label htmlFor="name">{t("name")}:</label>
@@ -103,7 +94,6 @@ function Form({ onClose }) {
           </button>
         </div>
       </form>
-      {/* <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} /> */}
     </div>
   );
 }
