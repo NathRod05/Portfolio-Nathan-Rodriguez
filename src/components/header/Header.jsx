@@ -49,7 +49,7 @@ function Header({ onOpen }) {
         <a href="#cv" onClick={handleLinkClick}>
           CV
         </a>
-        <button className="hamburger-translation" onClick={toggleLanguageMenu}>
+        <div className="hamburger-translation" onClick={toggleLanguageMenu}>
           <p className="selector">{t("language")}</p>
           {openTranslation && (
             <div>
@@ -61,7 +61,7 @@ function Header({ onOpen }) {
               </button>
             </div>
           )}
-        </button>
+        </div>
         <a
           href="#contact"
           className="btn-contact-mobile"
