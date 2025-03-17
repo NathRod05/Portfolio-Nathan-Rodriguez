@@ -1,6 +1,6 @@
 import "./cv.css";
-import imgCv from "../../assets/cv-portfolio-1.jpg";
-import cvPdf from "../../assets/cv-portfolio-1.pdf";
+import imgCv from "../../assets/cv-portfolio.jpg";
+import cvPdf from "../../assets/cv-portfolio.pdf";
 import { useTranslation } from "react-i18next";
 
 function CV() {
