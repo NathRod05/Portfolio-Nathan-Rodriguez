@@ -5,7 +5,7 @@ import Form from "../components/Modal-form/Form";
 import About from "../components/about/About";
 import Skill from "../components/skill/Skill";
 import Slider from "../components/slider/Slider";
-import CV from "../components/cv/cv";
+import CV from "../components/cv/Cv";
 import Project from "../components/project/project";
 import "./home.css";
 
