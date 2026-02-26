@@ -1,0 +1,12 @@
+.modal-container {
+  border: solid 1px #d8b33e;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: #d8b33e;
+  background-color: #0d0217;
+  width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+}
