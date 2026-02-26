@@ -17,7 +17,7 @@ function Form({ onClose }) {
         "service_xhol6eh",
         "template_phksuhf",
         form.current,
-        "6JumkaDVmvIAyMfRz"
+        "PRPN23PmJoO0S5tzd",
       )
       .then(
         (result) => {
@@ -27,7 +27,7 @@ function Form({ onClose }) {
         (error) => {
           console.error("Erreur:", error.text);
           alert("Une erreur est survenue.");
-        }
+        },
       );
   };
 
