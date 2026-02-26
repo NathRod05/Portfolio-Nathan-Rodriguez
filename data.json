@@ -81,11 +81,11 @@
     },
     {
       "id": "4",
-      "link": "https://oc-kasa-sigma.vercel.app/",
-      "image": "./../assets/image-kasa.png",
-      "alt": "Cover photo of the Kasa website",
+      "link": "https://mdp-impact.vercel.app/mdp",
+      "image": "./../assets/image-mdp-impact.jpg",
+      "alt": "Cover photo of the house of prayer impact website",
       "titre": "Kasa",
-      "description": "Kasa is one of the leading companies in the private apartment rental market in France.",
+      "description": "La Chambre Haute is a new place in Ste-Croix to serve God throught a house of prayer.",
       "skills": [
         { "skill": "HTML" },
         { "skill": "CSS" },
