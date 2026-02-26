@@ -33,11 +33,11 @@
     },
     {
       "id": "4",
-      "link": "https://oc-kasa-sigma.vercel.app/",
-      "image": "./../assets/image-kasa.png",
-      "alt": "Photo de couverture du site web Kasa",
-      "titre": "Kasa",
-      "description": "Kasa est l’une des entreprises leaders sur le marché de la location d’appartements entre particuliers en France.",
+      "link": "https://mdp-impact.vercel.app/",
+      "image": "./../assets/image-mdp-impact.jpg",
+      "alt": "Photo de couverture du site web de la Maison de prière Impact ",
+      "titre": "La Chambre Haute",
+      "description": "La Chambre Haute est un site internet pour une maison de prière qui vient de s'implenter à Ste-Croix.",
       "skills": [
         { "skill": "HTML" },
         { "skill": "CSS" },
@@ -81,10 +81,10 @@
     },
     {
       "id": "4",
-      "link": "https://mdp-impact.vercel.app/mdp",
+      "link": "https://mdp-impact.vercel.app/",
       "image": "./../assets/image-mdp-impact.jpg",
-      "alt": "Cover photo of the house of prayer impact website",
-      "titre": "Kasa",
+      "alt": "Cover photo of the house of prayer Impact website",
+      "titre": "La Chambre Haute",
       "description": "La Chambre Haute is a new place in Ste-Croix to serve God throught a house of prayer.",
       "skills": [
         { "skill": "HTML" },
