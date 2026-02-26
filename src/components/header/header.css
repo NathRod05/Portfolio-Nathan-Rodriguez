@@ -205,6 +205,7 @@
     position: fixed;
     top: 95px;
     right: 45px;
+    border: solid 1px #d8b33e;
   }
 
   .navigation a {
